@@ -1,0 +1,5 @@
+-- hook.Add('dbgWeapons.attachments.bipods', 'dbgWeapons.kickMultiplier', function(ply, wep)
+-- 	if wep:GetNetVar('isBipodsIntalled') and ply:Crouching() then
+-- 		return 0.5
+-- 	end
+-- end)
